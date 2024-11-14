@@ -567,10 +567,7 @@ function getSumOfNumbers(/* x1, x2, x3 */) {
  * 0, 5   => 5
  */
 function getMaxNumber(firstNumber, secondNumber) {
-  if(firstNumber > secondNumber) {
-    return firstNumber;
-  } else {
-    return secondNumber;
+  firstNumber > secondNumber ? return firstNumber : return secondNumber;
 }
 
 /**
