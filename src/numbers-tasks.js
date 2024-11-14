@@ -566,8 +566,8 @@ function getSumOfNumbers(/* x1, x2, x3 */) {
  * -5, -6 => -5
  * 0, 5   => 5
  */
-function getMaxNumber(firstNumber, secondNumber) {
-  firstNumber > secondNumber ? return firstNumber : return secondNumber;
+function getMaxNumber(/* firstNumber, secondNumber */) {
+  throw new Error('Not implemented');
 }
 
 /**
