@@ -533,9 +533,8 @@ function roundToNearestInteger(number) {
  * 5.4  => 5
  * -5.5 => -5
  */
-function getIntegerPartNumber(number) {
-  const rez = parseInt(number);
-  return rez;
+function getIntegerPartNumber(/* number */) {
+  throw new Error('Not implemented');
 }
 
 /**
