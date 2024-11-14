@@ -158,9 +158,9 @@ function parseNumberFromString(value) {
  *   1,2,3   => 3.741657386773941
  */
 function getParallelepipedDiagonal(a, b, c) {
-  const a = a ** 2;
-  const b = b ** 2;
-  const c = c ** 2;
+  const a = a**2;
+  const b = b**2;
+  const c = c**2;
   const rez = Math.sqrt(a + b + c);
   return rez;
 }
