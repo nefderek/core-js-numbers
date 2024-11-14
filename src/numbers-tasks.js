@@ -599,9 +599,8 @@ function getRandomInteger(/* min, max */) {
 function getHypotenuse(a, b) {
   const a1 = a ** 2;
   const b1 = b ** 2;
-  const rez = a1 + b1;
-  const rez1 = Math.sqrt(rez);
-  return rez1;
+  const rez = Math.sqrt(a1 + b1);
+  return rez;
 }
 
 /**
