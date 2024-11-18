@@ -275,7 +275,7 @@ function getFibonacciNumber(/* index */) {
  *   1  => 1
  */
 function getSumToN(n) {
-  const sum = 0;
+  let sum;
   for (let i = 1; i <= n; i += 1) {
   sum += i;
   }
