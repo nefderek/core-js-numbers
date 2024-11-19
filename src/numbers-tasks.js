@@ -607,8 +607,11 @@ function getRandomInteger(/* min, max */) {
  * @example:
  * 3, 4 => 5
  */
-function getHypotenuse(/* a, b */) {
-  throw new Error('Not implemented');
+function getHypotenuse(a, b) {
+  let a1 = a ** 2;
+  let b1 = b ** 2;
+  let sum = a1 + b1;
+  return Math.sqrt(sum);
 }
 
 /**
