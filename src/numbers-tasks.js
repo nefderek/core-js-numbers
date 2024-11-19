@@ -608,9 +608,9 @@ function getRandomInteger(/* min, max */) {
  * 3, 4 => 5
  */
 function getHypotenuse(a, b) {
-  let a1 = a ** 2;
-  let b1 = b ** 2;
-  let sum = a1 + b1;
+  const a1 = a ** 2;
+  const b1 = b ** 2;
+  const sum = a1 + b1;
   let sum1 = sum.Math.sqrt();
   return sum1;
 }
