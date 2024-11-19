@@ -611,7 +611,7 @@ function getHypotenuse(a, b) {
   const a1 = a ** 2;
   const b1 = b ** 2;
   const sum = a1 + b1;
-  const sum1 = sum.Math.sqrt();
+  const sum1 = Math.sqrt(sum);
   return sum1;
 }
 
