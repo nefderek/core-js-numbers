@@ -297,7 +297,7 @@ function getSumOfDigits(num) {
   let sum = 0;
   let num2 = 0;
   num2 = num.toString().split('');
-  for (var i = 0; i < num2.length; i += 1) {
+  for (let i = 0; i < num2.length; i += 1) {
     num2[i] = Number(num2[i]);
     sum += num2[i];
   }
