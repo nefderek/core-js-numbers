@@ -295,10 +295,11 @@ function getSumToN(n) {
  */
 function getSumOfDigits(num) {
   let sum = 0;
-  num = num.toString().split('');
-  for (var i = 0; i < num.length; i += 1) {
-    num[i] = Number(num[i]);
-    sum += num[i];
+  let num2 = 0;
+  num2 = num.toString().split('');
+  for (var i = 0; i < num2.length; i += 1) {
+    num2[i] = Number(num2[i]);
+    sum += num2[i];
   }
   return sum;
 }
