@@ -294,13 +294,12 @@ function getSumToN(n) {
  *   5   => 5  // 5
  */
 function getSumOfDigits(num) {
-  let num1 = num + '';
   let sum = 0;
-  let num2 = num1.split('');
-  for (var i = 0; i < num1.length; i += 1) {
+  let num2 = num.toString().split('');
+  for (var i = 0; i < num2.length; i += 1) {
     num2[i] = Number(num2[i]);
     sum += num2[i];
-}
+  }
   return sum;
 }
 
