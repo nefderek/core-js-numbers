@@ -439,7 +439,7 @@ function isNumber(/* number */) {
  */
 function isInteger(number) {
   if (Number.isInteger(number)) {
-  return true;
+    return true;
   }
 return false;
 }
