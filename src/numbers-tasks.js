@@ -441,7 +441,7 @@ function isInteger(number) {
   if (Number.isInteger(number)) {
     return true;
   }
-return false;
+  return false;
 }
 
 /**
