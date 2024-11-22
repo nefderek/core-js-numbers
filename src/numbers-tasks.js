@@ -345,7 +345,7 @@ function getSine(num) {
  * 2, 2    => '10'
  */
 function numberToStringInBase(number, base) {
-  const rez = (number).toString(base);
+  const rez = number.toString(base);
   return rez;
 }
 
