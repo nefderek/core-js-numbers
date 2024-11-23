@@ -213,7 +213,7 @@ function isPrime(n) {
   }
   let result = 1;
   let counter1 = 1;
-  for (let counter = 2; result !== 0; counter += 1) {
+  for (let counter = 2; result !=== 0; counter += 1) {
     result = n % counter;
     counter1 = counter;
   }
