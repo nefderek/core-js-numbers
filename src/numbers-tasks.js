@@ -617,9 +617,8 @@ function getMaxNumber(firstNumber, secondNumber) {
  * -1, 1 => -1 | 0 | 1
  */
 function getRandomInteger(min, max) {
-  let rez = min + Math.random() * (max + 1 - min);
-  let rez2 = Math.floor(rez);
-  return rez2;
+  let rez = (min + Math.random()) * (max + 1 - min);
+  return Math.floor(rez);
 }
 
 /**
