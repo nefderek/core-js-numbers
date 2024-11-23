@@ -221,7 +221,7 @@ function isPrime(n) {
     return true;
    }
     return false;
-  }
+}
 
 /**
  * Tries to convert value to number and returns it if conversion was successful;
